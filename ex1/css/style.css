@@ -1,0 +1,24 @@
+h1 {
+    color: orange;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+a {
+    color: darkgrey;
+    text-decoration: none;
+}
+a:hover {
+    color: #191a19;
+}
+a:visited {
+    color: red;
+}

@@ -1,0 +1,109 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1 {
+    color: darkslateblue;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+
+    border: 3px solid darkslateblue;
+    padding: 10px 20px;
+}
+.section_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 20px;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+.btn{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-1{
+    width: 85px;
+    background-color: indianred;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+
+    padding: 10px 20px;
+
+    color:white;
+    font-size: 24px;
+    transition: ease-in-out .25s;
+    cursor: pointer;
+}
+.btn-1:hover{
+    width: 230px;
+}
+.btn-1:disabled {
+    background-color: darkgrey;
+    cursor: default;
+    width: 230px;
+}
+
+.input-1{
+    padding: 10px 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+    text-align: right;
+
+}
+
+.input-1::placeholder{
+    font-size: 24px;
+}
+
+.warn{
+    display: none;
+    position: relative;
+    top: -115px;
+    left: 210px;
+
+    font-size: 14px;
+    font-family: sans-serif;
+    color:indianred;
+}
+.success{
+    color: forestgreen;
+}
+
+
+/*загрузочный див*/
+
+.loading{
+    width: 350px;
+}
+.loading_bar{
+    display: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: dimgrey;
+    text-align: right;
+}
+.line_loading{
+    content: "";
+    width: 0%;
+
+    border-top: 2px solid darkred;
+}
