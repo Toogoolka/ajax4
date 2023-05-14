@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1264px;
+}
+.limit__warn, .page__warn{
+    display: none;
+    color: darkred;
+}
+.form{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+.field__place{
+    max-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+
+}
+input{
+    padding: 7px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid dimgrey;
+}
+label{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.btn{
+    width: 350px;
+    padding: 10px 0px;
+
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    background-color: #12a607;
+
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #16b60a;
+}
+
+.result{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 20px;
+}
+.card{
+    padding: 15px 20px 35px;
+    border-radius: 7px;
+    background-color: #f1f1f1;
+}
